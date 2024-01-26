@@ -1,9 +1,9 @@
-import React, { useEffect, useRef, useState } from "react";
+import React from "react";
 
-export const Cards = () => {
+export const Cards1 = () => {
     return (
         <div className="flex items-center justify-center">
-            <div className={`w-3/4 bg-white rounded-xl overflow-hidden shadow-lg flex max-md:flex-col max-md:w-5/6`}>
+            <div className={`w-3/4 border-r-4 border-b-4 p-4 shadow-lg shadow-cyan-500/50 border-solid border-white bg-black bg-opacity-30 rounded-xl overflow-hidden shadow-lg flex max-md:flex-col max-md:w-5/6 max-md:p-0 max-md:m-2`}>
                 {/* Left Side: YouTube Embedded Video */}
                 <div className="w-1/2 bg-black items-center justify-center flex max-md:w-full">
                     {/* Replace the YouTube embed code with your actual video embed code */}
@@ -19,11 +19,11 @@ export const Cards = () => {
                 </div>
 
                 {/* Right Side: Title, Description, and Button */}
-                <div className="w-1/2 p-4 max-md:w-full">
+                <div className="w-1/2 p-4 max-md:w-full text-white">
                     <h1 className={`text-xl font-bold mb-2`}>CodeIT (Online IDE)</h1>
-                    <div class="border-b border-black"></div>
+                    <div class="border-b border-white"></div>
                     <h3 className="text-l mt-1 font-semibold">React, NodeJS, Flask, BeautifulSoup</h3>
-                    <div class="bg-gray-100 p-3">
+                    <div class="p-3">
                         <ul class="list-disc p-2">
                             <li className="text-black-500">Developed an online IDE specifically designed for competitive programmers using <b>monaco‑editor</b> wherr users can code in multiple languages.</li>
                             <li className="text-black-500">Implemented a feature to scrape test cases from a user‑provided URL using <b>BeautifulSoup</b>.</li>
@@ -32,8 +32,8 @@ export const Cards = () => {
                         </ul>
                     </div>
                     <a
-                        href="https://github.com/your-github-repo"
-                        className="bg-blue-500 text-white py-2 px-4 rounded-md inline-block"
+                        href="https://github.com/rashid642/codeit"
+                        className="bg-white text-black py-2 px-4 rounded-md inline-block font-medium ml-5"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
