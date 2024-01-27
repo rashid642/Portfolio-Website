@@ -3,7 +3,7 @@ import React from "react";
 export const Cards2 = () => {
     return (
         <div className="flex items-center justify-center">
-            <div className={`w-3/4 border-r-4 border-b-4 p-4 m-10 shadow-lg shadow-cyan-500/50 border-solid border-white bg-black bg-opacity-30 rounded-xl overflow-hidden shadow-lg flex max-md:flex-col max-md:w-5/6  max-md:p-0 max-md:m-2`}>
+            <div className={`w-3/4 border-r-4 border-b-4 p-4 m-10 shadow-lg shadow-cyan-500/50 border-solid border-white bg-black bg-opacity-30 rounded-xl overflow-hidden shadow-lg flex max-md:flex-col max-md:w-11/12  max-md:p-0 max-md:m-2`}>
                 {/* Left Side: YouTube Embedded Video */}
                 <div className="w-1/2 bg-black items-center justify-center flex max-md:w-full">
                     {/* Replace the YouTube embed code with your actual video embed code */}
@@ -39,7 +39,7 @@ export const Cards2 = () => {
                     >
                         View on GitHub
                     </a>
-                    
+
                 </div>
             </div>
         </div>
