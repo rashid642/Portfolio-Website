@@ -5,6 +5,7 @@ import { Navbar } from "./Components/Navbar";
 import { Projects } from "./Components/Projects";
 import { Skills } from "./Components/Skills";
 import {VideoBackground} from "./Components/VideoBackground";
+import "./CSS/scrollBar.css";
 
 function App() {
   return (
