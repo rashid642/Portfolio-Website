@@ -1,8 +1,9 @@
 
-import { Achivements } from "./Components/Achivements";
+import { Footer } from "./Components/Footer";
 import { Home } from "./Components/Home";
 import { Navbar } from "./Components/Navbar";
 import { Projects } from "./Components/Projects";
+import { Skills } from "./Components/Skills";
 import {VideoBackground} from "./Components/VideoBackground";
 
 function App() {
@@ -12,7 +13,8 @@ function App() {
         <Navbar/>
         <Home/>
         <Projects/>
-        <Achivements/>
+        <Skills/>
+        <Footer/>
     </div>
   );
 }

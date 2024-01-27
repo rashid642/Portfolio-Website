@@ -5,7 +5,7 @@ import YourPhoto from '../Media/MypicBW.jpeg';
 
 export const Home = () => {
     return (
-        <>
+        <div id="home">
             <div className="flex items-center justify-center h-screen flex-wrap">
                 {/* Left Part - Photo */}
                 <div className="flex-1 p-4 flex items-center justify-center">
@@ -35,6 +35,6 @@ export const Home = () => {
                     </div>
                 </div>
             </div>
-        </>
+        </div>
     )
 }

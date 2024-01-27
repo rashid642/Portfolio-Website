@@ -1,4 +1,5 @@
 import { React, useState } from "react";
+import { Link } from 'react-scroll';
 
 export const Navbar = () => {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -17,10 +18,18 @@ export const Navbar = () => {
     
             {/* Navbar Links (Hidden on Mobile) */}
             <div className="hidden md:flex space-x-10 items-center"> {/* Updated class here */}
-                <a href="#" className="text-white text-1xl border-b border-transparent hover:border-white transition duration-500 ease-in-out">Home</a>
-                <a href="#" className="text-white text-1xl border-b border-transparent hover:border-white transition duration-500 ease-in-out">Projects</a>
-                <a href="#" className="text-white text-1xl border-b border-transparent hover:border-white transition duration-500 ease-in-out">Achievements</a>
+                <Link to="home" smooth={true} duration={500}>
+                    <a href="#" className="text-white text-1xl border-b border-transparent hover:border-white transition duration-500 ease-in-out">Home</a>
+                </Link>
+                <Link to="projects" smooth={true} duration={500}>
+                    <a href="#" className="text-white text-1xl border-b border-transparent hover:border-white transition duration-500 ease-in-out">Projects</a>
+                </Link>
+                <Link to="skills" smooth={true} duration={500}>
+                <a href="#" className="text-white text-1xl border-b border-transparent hover:border-white transition duration-500 ease-in-out">Skills</a>
+                </Link>
+                <Link to="footer" smooth={true} duration={500}>
                 <a href="#" className="text-white text-1xl border-b border-transparent hover:border-white transition duration-500 ease-in-out">Contact</a>
+                </Link>
             </div>
     
             {/* Hamburger Menu (Visible on Mobile) */}
@@ -37,10 +46,18 @@ export const Navbar = () => {
     
             {/* Mobile Menu (Hidden by Default) */}
             <div className={`md:hidden bg-transparent p-4 ${isMobileMenuOpen ? '' : 'hidden'}`}>
-            <a href="#" className="block text-white py-2">Home</a>
-            <a href="#" className="block text-white py-2">Projects</a>
-            <a href="#" className="block text-white py-2">Achievements</a>
+            <Link to="home" smooth={true} duration={500}>
+            <a href="home" className="block text-white py-2">Home</a>
+            </Link>
+            <Link to="home" smooth={true} duration={500}>
+            <a href="projects" className="block text-white py-2">Projects</a>
+            </Link>
+            <Link to="skills" smooth={true} duration={500}>
+            <a href="#" className="block text-white py-2">Skills</a>
+            </Link>
+            <Link to="footer" smooth={true} duration={500}>
             <a href="#" className="block text-white py-2">Contact</a>
+            </Link>
             </div>
         </nav>
     )
