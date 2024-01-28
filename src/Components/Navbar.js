@@ -49,7 +49,7 @@ export const Navbar = () => {
             <Link to="home" smooth={true} duration={500}>
             <a href="home" className="block text-white py-2">Home</a>
             </Link>
-            <Link to="home" smooth={true} duration={500}>
+            <Link to="projects" smooth={true} duration={500}>
             <a href="projects" className="block text-white py-2">Projects</a>
             </Link>
             <Link to="skills" smooth={true} duration={500}>
