@@ -1,6 +1,7 @@
 import React from "react";
 import { ReactTyped } from "react-typed";
 import YourPhoto from '../Media/MypicBW.jpeg';
+import "../CSS/flip.css"
 
 
 export const Home = () => {
@@ -13,6 +14,7 @@ export const Home = () => {
                         src={YourPhoto} // Replace with your actual photo source
                         alt="Your Photo"
                         className="w-80 h-auto rounded-full max-md:w-60"
+                        id = "mypic"
                     />
                 </div>
 
