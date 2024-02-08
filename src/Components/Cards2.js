@@ -23,7 +23,7 @@ export const Cards2 = () => {
                     <h1 className={`text-xl font-bold mb-2`}>College Space (Video Conferencing App) </h1>
                     <div class="border-b border-white"></div>
                     <h3 className="text-l mt-1 font-semibold">Handlebars, CSS, JS, NodeJS, MySQL</h3>
-                    <div class="p-3">
+                    <div class="p-2">
                         <ul class="list-disc p-2 text-justify">
                             <li className="text-black-500">Developed a Web Application for educational purposes, similar to MS Teams.</li>
                             <li className="text-black-500">Implemented video conferencing (VC) features using <b>peerJS</b> and <b>socket.io</b>.</li>

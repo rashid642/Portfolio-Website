@@ -10,12 +10,12 @@ import "./CSS/scrollBar.css";
 function App() {
   return (
     <div className="App">
-        <VideoBackground />
-        <Navbar/>
-        <Home/>
-        <Projects/>
-        <Skills/>
-        <Footer/>
+         <VideoBackground />
+         <Navbar/>
+         <Home/>
+         <Projects/>
+         <Skills/>
+         <Footer/>
     </div>
   );
 }

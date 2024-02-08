@@ -3,7 +3,7 @@ import React from "react";
 export const Cards1 = () => {
     return (
         <div className="flex items-center justify-center">
-            <div className={`w-3/4 border-r-4 border-b-4 p-4 shadow-lg shadow-cyan-500/50 border-solid border-white bg-black bg-opacity-30 rounded-xl overflow-hidden flex max-md:flex-col max-md:w-11/12 max-md:p-0 max-md:m-2 `}>
+            <div className={`w-3/4 border-r-4 border-b-4 p-2 shadow-lg shadow-cyan-500/50 border-solid border-white bg-black bg-opacity-30 rounded-xl overflow-hidden flex max-md:flex-col max-md:w-11/12 max-md:p-0 max-md:m-2 `}>
                 {/* Left Side: YouTube Embedded Video */}
                 <div className="w-1/2 bg-black items-center justify-center flex max-md:w-full">
                     {/* Replace the YouTube embed code with your actual video embed code */}
@@ -23,7 +23,7 @@ export const Cards1 = () => {
                     <h1 className={`text-xl font-bold mb-2`}>CodeIT (Online IDE)</h1>
                     <div class="border-b border-white"></div>
                     <h3 className="text-l mt-1 font-semibold">React, NodeJS, Flask, BeautifulSoup</h3>
-                    <div class="p-3">
+                    <div class="p-2">
                         <ul class="list-disc p-2 text-justify">
                             <li className="text-black-500">Developed an online IDE specifically designed for competitive programmers using <b>monaco‑editor</b> wherr users can code in multiple languages.</li>
                             <li className="text-black-500">Implemented a feature to scrape test cases from a user‑provided URL using <b>BeautifulSoup</b>.</li>

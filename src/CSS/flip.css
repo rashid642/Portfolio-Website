@@ -1,8 +1,8 @@
 #mypic {
-    -webkit-animation: flip 2s;
-    animation: flip 2s;
+    -webkit-animation: flipp 2s;
+    animation: flipp 2s;
 }
-@-webkit-keyframes flip {
+@-webkit-keyframes flipp {
 from {
     transform: rotateY(90deg)
 }
@@ -10,7 +10,7 @@ to {
     transform: rotateY(0deg)
 }
 }
-@keyframes flip {
+@keyframes flipp {
 from {
     transform: rotateY(90deg)
 }
