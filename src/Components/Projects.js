@@ -5,7 +5,7 @@ import { AnimatedOnScroll } from "react-animated-css-onscroll";
 
 export const Projects = () => {
     return (
-        <div id="projects" className="pt-32 ">
+        <div id="projects" className="pt-16 ">
             <AnimatedOnScroll
                 animationIn="none"
             >
